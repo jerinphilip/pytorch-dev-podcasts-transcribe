@@ -11,3 +11,9 @@ python3 download.py
 bash to-wav.sh 
 bash transcribe.sh
 ```
+
+I mostly center the subtiles and leave it to play using `mpv`:
+
+```
+$ mpv --sub-file=XLA.wav.srt XLA.mp3 --force-window --sub-pos=50
+```
